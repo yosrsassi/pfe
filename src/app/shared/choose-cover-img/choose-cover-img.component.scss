@@ -1,0 +1,109 @@
+.container{
+    position: relative;
+    width: 33%;
+    height: 212px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+    border-radius: 16px;
+    left: 294.5px;
+    top: 320px;
+    .title{
+        display: flex;
+        align-items: center;
+        gap: 42%;
+        padding-top: 2%;
+        
+
+        .right_side{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            padding-left: 3%;
+            .title_text{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                letter-spacing: -0.02em;
+                color: #18263E;
+            }
+        }
+
+    }
+    .content{
+        display: flex;
+
+        .upload_cover{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 24px;
+
+
+            .upload_text{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                letter-spacing: -0.02em;
+                color: #344054;
+
+            }
+            .upload_btn{
+
+
+
+                .btn{
+                    background-color: #FFFFFF;
+                    background: #FAFDFF;
+                    border: 1px dashed #1897FA;
+                    border-radius: 8px;
+                    padding: 25px 62px;   
+                    margin-left: 16px;
+
+                }
+                .text_icon{
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    letter-spacing: -0.02em;
+                    color: #344054;
+
+                }
+            }
+        }
+        .choose_color{
+            
+
+            .choose_text{
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+            }
+            .colors{
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 24px;
+                .color{
+                    border: none;
+                    background-color: #8C98AD;
+                    cursor: pointer;
+                    margin: 2px;
+                    width: 26px;
+                    height: 26px;
+                    border-radius: 50%;
+                  }
+                  
+                
+              
+              }
+              
+        }
+
+
+    }
+}

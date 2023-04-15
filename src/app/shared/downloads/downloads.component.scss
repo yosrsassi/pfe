@@ -1,0 +1,61 @@
+.text-editor-container {
+    width: 235px;
+    height: 517px;
+    background: #FFFFFF;
+    box-shadow: 3px 4px 24px rgba(0, 154, 249, 0.1);
+    border-radius: 12px;
+    top: 86.5px;
+    right: 54px;
+    position: absolute;
+    .first_bar{
+      display: flex;
+      justify-content: space-around;
+      align-items: center; 
+      .style_icon{
+        margin-top: 17px;
+        margin-left: 4px;
+        color: #EF6820;
+      
+      } 
+      
+      .style{
+        margin-top: 19.5px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: #344054;
+  
+      }
+      .close_icon{
+        margin-top: 17px;
+        cursor: pointer;
+      
+      }
+    }
+    
+    hr{
+      border: 1px solid rgba(140, 152, 173, 0.1);
+      margin-top: 16px;
+  
+    }
+    .bottom_bar{
+      position: absolute;
+      bottom: 17px;
+      .telecharger{
+        color: #1897FA;
+        background-color: #E3F2FE;
+        border: 1px dashed #1897FA;
+        border-radius: 8px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        padding: 20px 69px;
+        margin-left: 14px;
+      }
+      
+    }
+    
+    
+  }

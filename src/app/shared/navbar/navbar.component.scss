@@ -1,0 +1,138 @@
+.navbar-container {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.72) 100%);
+
+
+  .my-library-container {
+    display: flex;
+    width: 204px;
+    height: 44px;
+    margin-left: 20px;
+
+    .my-library-btn {
+      cursor: pointer;
+      display: flex;
+      position: absolute;
+      width: 168px;
+      height: 44px;
+      background: #FFFFFF;
+      border: 1px solid #F2F4F7;
+      border-radius: 8px;
+
+      .back-icon {
+        cursor: pointer;
+        color: #344054;
+        align-self: center;
+        margin-left: 19.88px;
+        margin-right: 9.87px;
+        position: relative;
+      }
+
+      .my-library-text {
+        cursor: pointer;
+        align-self: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #344054;
+      }
+
+
+    }
+
+    .summary-icon {
+      cursor: pointer;
+      align-self: center;
+      margin-left: 181.25px;
+      z-index: 11;
+      color: #667085;
+    }
+
+  }
+
+  .book-title {
+    display: flex;
+
+    .title {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #000000;
+      margin-right: 15.25px;
+    }
+
+    .edit-icon {
+      cursor: pointer;
+      color: #667085;
+    }
+
+  }
+
+  .action-container {
+    display: flex;
+    justify-content: space-around;
+    width: 219px;
+    height: 44px;
+    border-left: 1px solid rgba(140, 152, 173, 0.3);
+    margin-right: 20px;
+
+    .save-btn {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background: #15B79E;
+      border-radius: 8px;
+    }
+
+    .preview-btn {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background: #9E77ED;
+      border-radius: 8px;
+    }
+
+    .export-pdf-btn {
+      cursor: pointer;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      width: 105px;
+      height: 44px;
+      background: #1897FA;
+      border-radius: 8px;
+
+      .action-text {
+        cursor: pointer;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-align: center;
+      }
+
+    }
+
+  }
+
+  }
+
+

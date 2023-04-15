@@ -1,0 +1,188 @@
+.text-editor-container {
+  width: 235px;
+  height: 517px;
+  background: #FFFFFF;
+  box-shadow: 3px 4px 24px rgba(0, 154, 249, 0.1);
+  border-radius: 12px;
+  top: 86.5px;
+  right: 54px;
+  position: absolute;
+  .first_bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    .style_icon{
+      margin-top: 17px;
+      margin-left: 4px;
+    
+    } 
+    
+    .style{
+      margin-top: 19.5px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #344054;
+      padding-right: 69px;
+
+    }
+    .close_icon{
+      margin-top: 17px;
+      cursor: pointer;
+    
+    }
+  }
+  
+  hr{
+    border: 1px solid rgba(140, 152, 173, 0.1);
+    margin-top: 16px;
+
+  }
+  .styles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .btn_style{
+      cursor: pointer;
+      border: none;
+      background-color: #FFFFFF;
+
+    }
+
+  }
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Calligraffitti&display=swap');
+.butter{
+  
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 700;
+  text-shadow: -15px 5px 20px #ced0d3;
+  letter-spacing: 0.02em;
+  color: #F9f1cc;
+  text-shadow:2px 1px 0px #FFB650,
+   3px 3px 0px #FFD662,
+    4px 5px 0px #FF80BF, 
+    5px 7px 0px #EF5097,
+     6px 9px 0px #6868AC,
+      7px 11px 0px #90B1E0;
+}
+
+.fun{
+  @supports (background-clip: text) or (-webkit-background-clip: text) {
+    background-image: 
+      url("data:image/svg+xml,%3Csvg width='2250' height='900' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg%3E%3Cpath fill='%2300A080' d='M0 0h2255v899H0z'/%3E%3Ccircle cx='366' cy='207' r='366' fill='%2300FDCF'/%3E%3Ccircle cx='1777.5' cy='318.5' r='477.5' fill='%2300FDCF'/%3E%3Ccircle cx='1215' cy='737' r='366' fill='%23008060'/%3E%3C/g%3E%3C/svg%3E%0A");
+    background-size: 110% auto;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+.friends{
+ 
+	text-shadow: 0 1px #ea8585,
+   -1px 0 #efb6b6,
+  -1px 2px #ea8585,
+  -2px 1px #efb6b6,
+  -2px 3px #ea8585,
+  -3px 2px #efb6b6,
+  -3px 4px #ea8585,
+  -4px 3px #efb6b6,
+  -4px 5px #ea8585, 
+  -5px 4px #efb6b6,
+  -5px 6px #ea8585,
+  -6px 5px #efb6b6;
+	text-align: center;
+  font-family: "Henny Penny", cursive;
+  color: #ad2727; 
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.learn_more{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3em;
+  background-image: linear-gradient(gold, gold);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+   transition: background-size .7s, background-position .5s ease-in-out;
+}
+
+.learn_more:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position .7s, background-size .5s ease-in-out;
+}
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+
+.sweet-title {
+  order: 2;
+  color: #fde9ff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(2rem, 4vw, 3rem);
+  transform: skew(0, -10deg);
+  font-family: "Exo 2", sans-serif;
+  text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
+
+  span {
+
+    &:before {
+      content: attr(data-text);
+      position: absolute;
+      text-shadow: 2px 2px 1px #e94aa1, -1px -1px 1px #c736f9,
+        -2px 2px 1px #e94aa1, 1px -1px 1px #f736f9;
+    }
+ }
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+	.sunny {
+		--color: #ffba11;
+		font-family: Impact, 'Anton', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+		font-weight: 700;
+		font-style: italic;
+		color: var(--color);
+		letter-spacing: -.005em;
+
+		&::before, &::after {
+			content: attr(data-text);
+			position: relative;
+		}
+
+		&::before {
+			position: absolute;
+			-webkit-text-stroke: .1em black;
+			z-index: 0;
+		}
+	}
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+
+.pop{
+  font-family: 'Raleway', sans-serif;
+  font-size: 47px;
+  letter-spacing: 0.09em;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  text-shadow: 3px 3px #ff1f8f, 6px 6px #000000;
+}
+
+
+
+
+
+

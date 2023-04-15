@@ -1,0 +1,12 @@
+.side-bar-container {
+  width: 54px;
+  height: 163px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(150px);
+
+   .icon {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+   }
+}
