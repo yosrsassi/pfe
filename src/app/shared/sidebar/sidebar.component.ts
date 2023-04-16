@@ -18,36 +18,76 @@ export class SidebarComponent implements OnInit {
 
   constructor(private modalService: BsModalService,public bsModalRef: BsModalRef ){ }
 
+  isOpened : Boolean = true
+
+
   ngOnInit(): void {
+    console.log(this.isOpened)
+
 
   }
-
 
   openTextEditor() {
-    if (!this.modalService.getModalsCount()) {
+    
+
+
+    if (!this.modalService.getModalsCount() ) {
       // No modal is currently open, so we can open the TextEditorComponent modal
-      this.modalService.show(TextEditorComponent);
+      this.modalService.show(TextEditorComponent , {id:1});
+      this.isOpened = false
+        console.log(this.isOpened)
     }
     else{
-      this.modalService.hide();
+
+      this.modalService.hide(2)
+      this.modalService.hide(3)
+      //this.modalService.show(TextEditorComponent , {id:1});
+      this.isOpened = false
+
   }
+
+  if (this.isOpened = false) {
+    this.modalService.hide(1)
+    this.isOpened = true
+
+  }
+
+
+
+
+
+
+
+
+
+  
 }
 
   openStyle () {
     if (!this.modalService.getModalsCount()) {
       // No modal is currently open, so we can open the TextEditorComponent modal
-      this.modalService.show(StyleComponent);
+      this.modalService.show(StyleComponent, {id:2});
     }
     else{
-      this.modalService.hide();
+      this.modalService.hide(1)
+      this.modalService.hide(3)
+      this.modalService.show(StyleComponent, {id:2});
+
   }  }
   openDownloads () {
     if (!this.modalService.getModalsCount()) {
+
+        this.modalService.show(DownloadsComponent, {id:3});
+
+
       // No modal is currently open, so we can open the TextEditorComponent modal
-      this.modalService.show(DownloadsComponent);
     }
     else{
-      this.modalService.hide();
+      this.modalService.hide(2)
+      this.modalService.hide(1)
+      this.modalService.show(DownloadsComponent, {id:3});
+
+
   }  }
 
 
